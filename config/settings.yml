@@ -3,3 +3,10 @@ links:
     help_page: http://www.railstutorial.org/help
     book_page: https://www.railstutorial.org/book
     home_page: http://www.railstutorial.org/
+    contact_page: https://ww.railstutorial.org/contact
+    screencast_series: https://screencasts.railstutorial.org/
+    news: https://news.railstutorial.org/
+  other_website:
+    ruby_rail: https://rubyonrails.org/
+    learn_enough: https://www.learnenough.com/
+    michael_hartl: https://www.michaelhartl.com/
