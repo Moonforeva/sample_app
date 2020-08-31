@@ -10,3 +10,12 @@ links:
     ruby_rail: https://rubyonrails.org/
     learn_enough: https://www.learnenough.com/
     michael_hartl: https://www.michaelhartl.com/
+
+validations:
+  name:
+    max_length: 50
+  email:
+    max_length: 255
+    regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+  password:
+    min_length: 6
