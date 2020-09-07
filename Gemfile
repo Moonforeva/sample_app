@@ -15,6 +15,9 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "rails-i18n"
 gem "bootstrap-sass" 
 gem "bcrypt", "~> 3.1", ">= 3.1.15"
+gem "faker", "~> 1.6", ">= 1.6.3"
+gem "kaminari", "~> 0.16.3"
+gem "kaminari-bootstrap", "~> 3.0", ">= 3.0.1"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
