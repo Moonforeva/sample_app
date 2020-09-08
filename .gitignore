@@ -43,3 +43,6 @@ yarn-debug.log*
 /config/database.yml
 /test
 /app/assets/stylesheets/static_pages.scss
+
+# Ignore application configuration
+/config/application.yml
