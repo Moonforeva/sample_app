@@ -10,6 +10,7 @@ links:
     ruby_rail: https://rubyonrails.org/
     learn_enough: https://www.learnenough.com/
     michael_hartl: https://www.michaelhartl.com/
+    gravatar_email: https://gravatar.com/emails
 
 validations:
   name:
