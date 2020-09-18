@@ -19,6 +19,9 @@ gem "faker", "~> 1.6", ">= 1.6.3"
 gem "kaminari", "~> 0.16.3"
 gem "kaminari-bootstrap", "~> 3.0", ">= 3.0.1"
 gem "figaro", "~> 1.1", ">= 1.1.1"
+gem "active_storage_validations", "~> 0.1"
+gem "image_processing", "~> 0.2.3"
+gem "mini_magick", "~> 4.5", ">= 4.5.1"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

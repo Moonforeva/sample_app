@@ -12,7 +12,8 @@ class User < ApplicationRecord
     length: { minimum: Settings.validations.password.min_length },
     allow_nil: true
   
-  has_secure_password 
+  has_secure_password
+  has_many :microposts, dependent: :destroy
   
   before_save :downcase_email
   before_create :create_activation_digest 
@@ -64,6 +65,14 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.password_expired_time.hours.ago
+  end
+  
+  def feed
+    microposts
+  end
+
+  def display_image
+    image.variant(resize_to_limit: [500, 500])
   end
   
   private
